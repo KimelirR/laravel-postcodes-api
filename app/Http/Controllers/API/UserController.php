@@ -6,11 +6,11 @@ use App\Http\Controllers\Controller;
 use App\Http\Resources\UserResource;
 use App\Models\User;
 use Illuminate\Http\Request;
-use App\Http\Traits\Synchronize;
+// use App\Http\Traits\Synchronize;
 
 class UserController extends Controller
 {
-    use Synchronize;
+    // use Synchronize;
     /**
      * Display a listing of the resource.
      */
@@ -60,7 +60,7 @@ class UserController extends Controller
         $data->update();
         
         //Edit other database on internet as well
-        $this->synchronizeDatabases($api_key,$id);
+        // $this->synchronizeDatabases($api_key,$id);
 
         $response =['status' => 'success', 'api_key' => $api_key];
         return response()->json($response,200);
