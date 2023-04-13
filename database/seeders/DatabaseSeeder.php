@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         Model::unguard();
         $this->call([
             UsersSeeder::class,
+            LocationSeeder::class,
         ]);
     }
 }
