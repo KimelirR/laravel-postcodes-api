@@ -1,0 +1,24 @@
+       <link href="{{ asset('/build/manifest.json')}}" rel="manifest">
+        <link  href="{{ asset('/build/assets/app-5c32eee2.css')}}" rel="stylesheet">
+        <script  src="{{ asset('/build/assets/app-5368d465.js')}}" type="text/javascript"></script>
+
+        <link href="{{asset('/public/build/')}}" rel="stylesheet" type="text/css">
+        <!-- <link href="resources/css/app.css" rel="stylesheet" type="text/css">
+        <link href="resources/css/custom.css" rel="stylesheet" type="text/css"> -->
+
+        @vite(['resources/js/app.js','resources/css/app.css','resources/css/custom.css'])
+
+                <link  href="build/assets/app-897cd322.css" rel="stylesheet">
+        <link  href="build/assets/app-fc7a821c.css" rel="stylesheet">
+        <link  href="build/assets/custom-5088dded.css" rel="stylesheet">
+ <script type="text/javascript" src="build/assets/app-6ec6f6e1.js"></script>
+
+
+@vite(['resources/js/app.js','resources/css/app.css'])
+
+
+   <!-- Styles -->
+        <link  href="build/assets/app-75efd084.css" rel="stylesheet">
+        <link  href="build/assets/app-19c42dc8.css" rel="stylesheet">
+        <script type="text/javascript" src="build/assets/app-0f277ae5.js"></script>
+
